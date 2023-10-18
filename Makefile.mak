@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall
+CFLAGS = -Wall -std=c99
 
 menu: menu.c index_first_even.o index_last_odd.o sum_between_even_odd.o sum_before_even_and_after_odd.o
 	$(CC) $(CFLAGS) -o menu menu.c index_first_even.o index_last_odd.o sum_between_even_odd.o sum_before_even_and_after_odd.o
